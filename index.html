@@ -14,7 +14,10 @@
         <div class="logo">
             <h1>Products</h1>
         </div>
-        <nav id="nav">
+        <div>
+            <input type="search" class="searchBar" placeholder="Products Search">
+        </div>
+        <nav id="nav">       
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -23,15 +26,25 @@
             </ul>
         </nav>
     </header>
+    <div class="pagination">
+        <button id="btn-20" class="pagination-btn">Show 20 Products</button>
+        <button id="btn-30" class="pagination-btn">Show 30 Products</button>
+        <button id="btn-40" class="pagination-btn">Show 40 Products</button>
+        
+    </div>
     <div class="flex" id="products">
-    </div>
 
-      <div class="buttons">
-
-        <button class="red" id="prev-btn" disabled>Back Page</button>
-        <button class="green" id="next-btn">Next Page</button>
-      </div>
     </div>
+        <div class="pagination">
+            <button id="prev-btn" class="pagination-btn red" disabled>Back</button>
+            <button id="next-btn" class="pagination-btn">Next</button>
+        
+      </div>  
+ 
+    
+    <div id="products" class="products-container"></div>
+    </div>
+ 
     <footer id="footer">
         <div class="footer-content">
             <p> 2024 My Website. All rights reserved.</p>
